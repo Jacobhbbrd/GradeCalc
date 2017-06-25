@@ -12,7 +12,7 @@ export class GradesComponent {
     weightTotal = 0;
 
     // form values
-    name = null;
+    name = '';
     weight = null;
     percent = null;
     pointsEarned = null;

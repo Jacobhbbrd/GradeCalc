@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="weight">Weight</label>
+                        <label for="weight">Weight of Grade</label>
                         <div class="input-group">
                             <input [(ngModel)]="weight" class="form-control" id="weight" type="number" name="weight" placeHolder="Weight..." />
                             <span class="input-group-addon">%</span>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div [class.hidden]="!percentMode" class="form-group">
-                        <label for="percent">Percent</label>
+                        <label for="percent">Percent of Points Earned</label>
                         <div class="input-group">
                             <input [(ngModel)]="percent" class="form-control" id="percent" type="number" name="percent" placeHolder="Percent..." />
                             <span class="input-group-addon">%</span>
